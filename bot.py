@@ -11,8 +11,8 @@ load_dotenv()
 
 TOKEN = os.getenv("DISCORD_TOKEN")
 
-GUILD_ID = 1413770285739544640
-VOICE_CHANNEL_ID = 1469047346808623268
+GUILD_ID = 1437208326092886099
+VOICE_CHANNEL_ID = 1437208326797656199
 
 intents = discord.Intents.all()
 bot = commands.Bot(command_prefix="blaze ", intents=intents, help_command=None)
